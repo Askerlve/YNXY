@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8" />
-<title>KnowledgeU</title>
+<title>KnowU</title>
 <style type="text/css">
 @font-face {
 	font-family: digit;
@@ -23,29 +23,28 @@
 	<div id="content">
 		<div id="code">
 			<span class="comments">/**</span><br />
-			<span class="space"/><span class="comments">*给香玉同学的一封信,</span><br />
-			<span class="space"/><span class="comments">*2019-08-07.</span><br />
+			<span class="space"/><span class="comments">*给厂长的一封信,</span><br />
+			<span class="space"/><span class="comments">*2020.04.14</span><br />
 			<span class="space"/><span class="comments">*/</span><br />
-			依稀记得19年一月的第一次见面，纤细的身型，简单的妆容，爱咪咪的眼睛~<br />
-			<span class="comments">如在酷日突然步入了暴雨后树林，清新、干净、丝丝清凉～</span><br />
-            没错，我就是对你好感爆棚～<br />
-			<span class="comments"><span class="keyword">但</span>，黑暗中的热切终归会接受阳光的直射，遗憾太阳过大，太刺眼～</span><br />
-			你不再对我絮叨，输入框上弹出的文字开始冰冷。我知道，好感，是单方面的～<br />
+			厂长好:<br />
+			<span class="comments">我是你于2020.04.05日下午认识的杨略同学~</span><br />
+			很开心在能在<span class="keyword">2020</span>这么一个对称的年份与你相识～<br />
 			<span class="comments">能遇到一个让自己持续好奇想认识的人本身就是一种气运～</span><br />
-			没有关系，心先暂存在你那里，哈哈～😑
-			<br />
-			<br />
-            <span class="comments">在这神奇的日子里，仪式感是要有的～</span><br />
-			有句话想说给你听:
+			It is very nice to meet you～😑<br />
+            <span class="comments">不管未来怎样,在这一刻~</span><br />
+			我想对你说:
             <br>
             <br>
-			I believe <span class="keyword">someday</span> in the future, <span class="keyword">together</span>, <span class="keyword">forever</span>!<br />
+			<span class="keyword">I believe someday in the feature, together, forever</span>！<br />
+			<br>
+			<br>
+			<span class="comments">早安！</span><br />
 		</div>
 		<div id="loveHeart">
 			<canvas id="garden"></canvas>
 			<div id="words">
 				<div id="messages">
-					李老师，这是我们认识的时光。
+					厂长，这是我们认识的时光。
 					<div id="elapseClock"></div>
 				</div>
 				<div id="loveu">
@@ -61,16 +60,16 @@
 var offsetX = $("#loveHeart").width() / 2;
 var offsetY = $("#loveHeart").height() / 2 - 55;
 var together = new Date();
-together.setFullYear(2019, 0, 1);
-together.setHours(0);
-together.setMinutes(0);
-together.setSeconds(0);
+together.setFullYear(2020, 3, 05);
+together.setHours(15);
+together.setMinutes(31);
+together.setSeconds(31);
 together.setMilliseconds(0);
 
 if (!document.createElement('canvas').getContext) {
 	var msg = document.createElement("div");
 	msg.id = "errorMsg";
-	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
 	document.body.appendChild(msg);
 	$("#code").css("display", "none")
 	document.execCommand("stop");
